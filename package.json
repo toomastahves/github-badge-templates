@@ -1,0 +1,14 @@
+{
+  "name": "shelter35",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor index.js"
+  },
+  "author": "Toomas Tahves",
+  "license": "MIT",
+  "dependencies": {
+    "node-static": "^0.7.7"
+  }
+}
