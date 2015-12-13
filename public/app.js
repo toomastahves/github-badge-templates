@@ -1,3 +1,1 @@
-console.log('tom');
-
-console.log('pom');
+console.log('hello');
