@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node index.js"
   },
+  repository": {
+    "type": "git",
+    "url": "https://github.com/toomastahves/template"
+  },
   "author": "Toomas Tahves",
   "license": "MIT",
   "dependencies": {
