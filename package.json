@@ -9,6 +9,9 @@
   "author": "Toomas Tahves",
   "license": "MIT",
   "dependencies": {
+    "codecov.io": "^0.1.6",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
     "node-static": "^0.7.7"
   }
 }
