@@ -18,7 +18,6 @@
   "devDependencies": {
     "codecov.io": "^0.1.6",
     "istanbul": "^0.4.1",
-    "jshint": "^2.9.1-rc1",
     "mocha": "^2.3.4",
   }
 }
