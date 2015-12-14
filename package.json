@@ -1,14 +1,14 @@
 {
   "name": "shelter-template",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Template description",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec && cat ./coverage/coverage.json | ./node_modules/codecov.io/bin/codecov.io.js"
+    "test": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec && cat ./coverage/coverage.json | ./node_modules/codecov.io/bin/codecov.io.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/toomastahves/template"
+    "url": "https://github.com/toomastahves/template.git"
   },
   "author": "Toomas Tahves",
   "license": "MIT",
@@ -21,5 +21,13 @@
     "istanbul": "^0.4.1",
     "jshint": "^2.9.1-rc1",
     "mocha": "^2.3.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/toomastahves/template/issues"
+  },
+  "homepage": "http://toomastahves.github.io/template/",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
 }
