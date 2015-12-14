@@ -3,6 +3,3 @@ sudo: false
 language: node_js
 node_js:
   - 4.1
-  
-after_success:
-  - ./bin/codecov -e TRAVIS_NODE_VERSION
