@@ -1,6 +1,6 @@
 import { SEND_MESSAGE, RECEIVE_MESSAGE } from '../constants/message';
 import io from 'socket.io-client';
-const socket = io('http://localhost:3000');
+const socket = io('http://localhost:4000');
 import store from '../store/';
 
 export const sendMessage = (message) => {

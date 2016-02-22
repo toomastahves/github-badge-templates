@@ -12,7 +12,7 @@ const Chat = (props) => {
     <div>
       {props.messages.map((message, i) => <div key={i}>{message}</div>)}
       <input type='text' id='message' />
-      <button onClick={send}>{'emit'}</button>
+      <button onClick={send}>{'send'}</button>
     </div>
   );
 };
