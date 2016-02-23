@@ -10,7 +10,15 @@ const Chat = (props) => {
   };
   return (
     <div>
-      {props.messages.map((message, i) => <div key={i}>{message}</div>)}
+      {props.messages.map((message, i) => {
+        const link = `http://localhost:3000/speech?message=${message}`;
+        return (
+          <div key={i}>
+            {message}
+            <audio autoPlay type='audio/wav' src={link}>{'hear'}</audio>
+          </div>
+        );
+      })}
       <input type='text' id='message' />
       <button onClick={send}>{'send'}</button>
     </div>
