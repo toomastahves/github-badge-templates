@@ -1,7 +1,7 @@
 {
-  "name": "react-socketio-example",
+  "name": "react-watson-example",
   "version": "0.0.1",
-  "description": "React Redux socket.io example",
+  "description": "React Redux Watson socket.io example",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server/index.js",
@@ -14,18 +14,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toomastahves/react-socketio-example.git"
+    "url": "git+https://github.com/toomastahves/react-watson-example.git"
   },
   "keywords": [],
   "author": "Toomas Tahves",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/toomastahves/react-socketio-example/issues"
+    "url": "https://github.com/toomastahves/react-watson-example/issues"
   },
   "engines": {
     "node": "5.6.0"
   },
-  "homepage": "https://github.com/toomastahves/react-socketio-example#readme",
+  "homepage": "https://github.com/toomastahves/react-watson-example#readme",
   "devDependencies": {
     "babel-eslint": "5.0.0-beta10",
     "chai": "3.5.0",

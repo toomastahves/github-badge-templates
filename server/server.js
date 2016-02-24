@@ -1,7 +1,7 @@
 import { startWebpackDevServer } from './webpack/devServer';
 import app from './express/app';
 import './socketio';
-import './nodered';
+// import './nodered';
 import { connectToCacheDatabase } from './database/redis';
 connectToCacheDatabase();
 
